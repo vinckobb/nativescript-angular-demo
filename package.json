@@ -2,40 +2,41 @@
   "nativescript": {
     "id": "org.nativescript.nativescriptivy",
     "tns-android": {
-      "version": "6.4.1"
+      "version": "6.4.0-2020-01-06-172303-02"
     },
     "tns-ios": {
-      "version": "6.4.0"
+      "version": "6.3.0-2020-01-07-173547-01"
     }
   },
   "description": "NativeScript Application",
   "license": "SEE LICENSE IN <your-license-filename>",
   "repository": "<fill-your-repository-here>",
   "scripts": {
+    "ngcc": "ngcc",
     "postinstall": "ngcc"
   },
   "dependencies": {
-    "@angular/animations": "9.0.0",
-    "@angular/common": "9.0.0",
-    "@angular/compiler": "9.0.0",
-    "@angular/core": "9.0.0",
-    "@angular/forms": "9.0.0",
-    "@angular/platform-browser": "9.0.0",
-    "@angular/platform-browser-dynamic": "9.0.0",
-    "@angular/router": "9.0.0",
+    "@angular/animations": "~9.0.1",
+    "@angular/common": "~9.0.1",
+    "@angular/compiler": "~9.0.1",
+    "@angular/core": "~9.0.1",
+    "@angular/forms": "~9.0.1",
+    "@angular/platform-browser": "~9.0.1",
+    "@angular/platform-browser-dynamic": "~9.0.1",
+    "@angular/router": "~9.0.1",
     "@nativescript/theme": "2.3.0",
     "@nativescript/angular": "file:nativescript-angular-v9.tgz",
     "nativescript-angular": "file:nativescript-angular-compat.tgz",
     "reflect-metadata": "0.1.13",
     "rxjs": "6.5.4",
-    "tns-core-modules": "6.4.1",
+    "tns-core-modules": "~6.3.0",
     "zone.js": "0.10.2"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "9.0.0",
-    "@ngtools/webpack": "9.0.0",
-    "nativescript-dev-webpack": "1.5.0",
-    "typescript": "3.7.5"
+    "@angular/compiler-cli": "~9.0.1",
+    "@ngtools/webpack": "~9.0.1",
+    "nativescript-dev-webpack": "~1.5.0",
+    "typescript": "~3.7.5"
   },
   "gitHead": "d8bdf0799a219051f28f8abd7c258d2bf2fce6e1",
   "readme": "NativeScript Application"
